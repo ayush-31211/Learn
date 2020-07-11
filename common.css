@@ -1,0 +1,54 @@
+#aside{
+    display: inline-block;
+    width: 19%;
+    height: 94vh;
+    /* backg round-color: darkgrey; */
+    background-color: rgba(220, 220, 220, .5);
+
+    float: left;
+}
+
+
+#aside ul li{
+    padding: 3% 0;
+}
+
+.aside_element{
+    text-align: center;
+    padding: 2%;
+    /* border: 2px dotted black; */
+}
+.aside_element:hover{
+    background-color: rgba(220, 220, 220, .8);
+}
+
+
+
+
+#main{
+    float: left;
+    display: inline-block;
+    width:81%;
+    height:94vh;
+    /* background-color: gainsboro; */
+    padding: 1% 2%;
+    
+}
+
+
+
+.nav_bar{
+    height: 100%;
+}
+
+li ul{
+    font-style: italic;
+    display : none;
+}
+#Index ol li:nth-child(n):hover ul{
+    display: block;
+}
+
+#aside ul li:nth-child(n):hover ul{
+    display: block;
+}

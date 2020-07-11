@@ -1,0 +1,11 @@
+li ul{
+    font-style: italic;
+    display : none;
+}
+#Index ol li:nth-child(n):hover ul{
+    display: block;
+}
+
+#aside ul li:nth-child(n):hover ul{
+    display: block;
+}

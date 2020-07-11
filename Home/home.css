@@ -1,0 +1,29 @@
+
+header{
+    text-align: center;
+}
+header h2
+{
+    text-transform: uppercase;
+}
+.Box{
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+    margin: 1% 4%;
+    border: 1px dotted black;
+    text-align: center;
+    padding:2%;
+    border-radius: 50px;
+}
+.Box span{
+    display: block;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    font-family: cursive;
+    color: rgb(47, 120, 255);
+}
+.Box button{
+    margin: 0 auto;
+}
